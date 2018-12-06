@@ -1,3 +1,48 @@
+.mainBox {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+.outerBox {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+.innerBox {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+}
+.boxRandomColor {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+}
+.empty {
+  width: 160px;
+  height: 160px;
+  background-color: red;
+  margin-left: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+.fill {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  margin-left: 5px;
+}
+
+.lorem {
+  width: 500px;
+  background-color: #333;
+  color: red;
+}
+.hide {
+  display: none;
+}
+
 #pharagraph {
   width: 30%;
   background-color: silver;
@@ -12,18 +57,21 @@
   -moz-transition: max-height 1s;
   transition: max-height 1s;
 }
-#pharagraph.open {
+/* #pharagraph.open {
   max-height: 1200px;
+
   -webkit-transition: max-height 1s;
   -moz-transition: max-height 1s;
   transition: max-height 1s;
-}
+} */
 #button {
-  color: red;
-  width: 13%;
+  color: green;
+  width: 23%;
   margin-left: 43%;
   background-color: blue;
   margin-top: 6px;
+  cursor: pointer;
+  display: block;
 }
 .main {
   width: 90%;
@@ -36,7 +84,7 @@ h2 {
   color: blue;
 }
 
-.grid {
+/* .grid {
   width: 100%;
   display: grid;
   grid-column-gap: 2px;
@@ -46,7 +94,7 @@ h2 {
   font-size: 20px;
 }
 .grid > p {
-}
+} */
 .grid2 {
   width: 100%;
   display: grid;
@@ -58,7 +106,7 @@ h2 {
   /* width: 25%; */
   height: 250px;
 }
-button {
+.do {
   color: red;
   width: 13%;
   margin-left: 43%;
